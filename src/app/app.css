@@ -1,0 +1,84 @@
+.main {
+    background-color: #f6f6f6;
+    text-align: center;
+    height: 100vh;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.backBtn {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    border: none;
+    background: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.backBtn:hover {
+    background-color: lightgray;
+}
+
+/* Address Input View */
+.addressForm {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+.address {
+    width: 350px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    line-height: 20px;
+    padding-left: 10px;
+    margin-top: 150px;
+    border-color: #44607f;
+}
+
+.getAddressButton {
+    align-self: flex-end;
+    margin: 30px 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: lightgray;
+    line-height: 24px;
+    padding: 3px 20px;
+    cursor: pointer;
+}
+.getAddressButton:disabled {
+    cursor: default;
+    opacity: .8;
+}
+.getAddressButton:hover:not([disabled]) {
+    background-color: #9fb7cb;
+}
+
+/* Grid view (but not the grid) */
+.gridWrapper {
+    border-radius: 10px;
+    padding: 65px 5px 5px 5px;
+    margin: 20px;
+    flex: 1 1 auto;
+    align-self: stretch;
+    overflow-x: hidden;
+    background-color: white;
+    font-size: 11px;
+    text-align: left;
+}
+.loader {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    color: #44607f;
+}

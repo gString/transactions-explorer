@@ -1,0 +1,63 @@
+.ag-theme-geekit {
+    --ag-font-size: 10px;
+    --ag-borders: none;
+    --ag-row-border-color: transparent;
+    --ag-selected-row-background-color: transparent;
+}
+
+.ag-theme-geekit .ag-header-cell {
+    font-weight: bold;
+    color: #44607f;
+    font-size: 11px;
+    background-color: white;
+    margin-right: 20px;
+    border-bottom: 2px solid #ebecf4;
+    line-height: 36px;
+}
+
+.lineHeight {
+    line-height: 36px;
+}
+
+.extraPadding {
+    padding-right: 80px;
+}
+
+.lessPadding {
+    padding-right: 70px;
+}
+
+.ag-cell-focus {
+    border-color: transparent !important;
+}
+
+.ag-row-selected::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 2px;
+    left: 0;
+    border-radius: 10px;
+    -webkit-box-shadow:0 0 8px 0 rgba(202,202,202,0.5);
+    -moz-box-shadow: 0 0 8px 0 rgba(202,202,202,0.5);
+    box-shadow: 0 0 8px 0 rgba(202,202,202,0.5);
+}
+
+.valueCell {
+    font-weight: bold;
+}
+.valueCell span {
+    position: relative;
+    top: -1px;
+    font-size: 8px;
+    font-weight: normal;
+    color: #44607f;
+    margin-left: 4px;
+    letter-spacing: 1px;
+}
+.valueCell img {
+    position: relative;
+    top: 3px;
+    margin-right: 3px;
+}
